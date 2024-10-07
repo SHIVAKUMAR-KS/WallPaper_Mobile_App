@@ -10,7 +10,7 @@ export default function Index() {
       }}
     >
       <Text>Edit app/index.tsx to edit this screen.</Text>
-      <Text>App development from Expo</Text>
+      <Text>App development from Expo </Text>
     </View>
   );
 }
