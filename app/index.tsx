@@ -17,15 +17,6 @@ export default function(){
 
   return <View>
     <Text>Index page</Text>
-    <Link href={"/account"}>
-        <Text>Take me to account page</Text>
-    </Link>
-    <Link href={"/foryou"}>
-        <Text>Take me to for you page</Text>
-    </Link>
-    <Link href={"/explore"}>
-        <Text>Take me to explore page</Text>
-    </Link>
-
+   
   </View>
 }
