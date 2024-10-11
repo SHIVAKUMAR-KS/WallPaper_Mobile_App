@@ -3,7 +3,7 @@ import { Text, View } from "react-native";
 export default function explore(){
 
     return <View>
-        <Text>Explore page</Text>
+        <Text>Explore pages</Text>
     </View>
 
 }
