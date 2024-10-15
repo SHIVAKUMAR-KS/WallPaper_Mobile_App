@@ -1,32 +1,25 @@
-import { Link } from "expo-router";
-import { useEffect, useState } from "react";
-import { Button, Image, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
+import { Text, View } from 'react-native';
 
+const Tab = createMaterialTopTabNavigator();
 
-export default function(){
-  // const [count,setCount]=useState(0);
+export default function ForYou() {
+  return (
+    <Tab.Navigator>
+      <Tab.Screen name="Home" component={HomeScreen} />
+      <Tab.Screen name="Settings" component={SettingsScreen} />
+    </Tab.Navigator>
+  );
+}
 
-  // useEffect(()=>{
-  //   let interval=setInterval(() => {
-  //     setCount(c=>c+1)
-  //   }, 1000)
-  //   return ()=>{
-  //     clearInterval(interval)
-  //   }
-  // },[])
+function HomeScreen(){
+  return <View>
+    <Text>hi from home page</Text>
+  </View>
+}
 
-  return <SafeAreaView>
-    <Link href={'/library'}>
-        <Text>page 1</Text>
-    </Link>
-    <Link href={'/liked'}>
-        <Text>page 2</Text>
-    </Link>
-    <Link href={'/suggested'}>
-        <Text>page 3</Text>
-    </Link>
-    <Text>For You Page</Text>
-  
-  </SafeAreaView>
+function SettingsScreen(){
+  return <View>
+    <Text>hi from settings page</Text>
+  </View>
 }
