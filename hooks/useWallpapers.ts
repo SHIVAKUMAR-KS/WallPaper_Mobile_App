@@ -40,6 +40,20 @@ export function useWallpapers(): FullWallpaper[] {
         library: true
     },
     {
+        url: "https://ideogram.ai/assets/image/lossless/response/lfj2Y_WbTsW6jrne4-NBWg",
+        "name": "Diwali",
+        liked: true,
+        suggested: false,
+        library: true
+    },
+    {
+        url: "https://ideogram.ai/assets/progressive-image/balanced/response/vEbsGPEfSA6pX-2fu67G5A",
+        "name": "Coding",
+        liked: true,
+        suggested: true,
+        library: true
+    },
+    {
         url: "https://ideogram.ai/assets/progressive-image/balanced/response/O0l3cIsdSJm7CRjGqrb5-Q",
         "name": "Motivation",
         liked: false,
