@@ -40,6 +40,13 @@ export function useWallpapers(): FullWallpaper[] {
         library: true
     },
     {
+        url: "https://ideogram.ai/assets/progressive-image/balanced/response/-coa67EyQbunSMusqI2c0A",
+        "name": "Hacking",
+        liked: true,
+        suggested: false,
+        library: true
+    },
+    {
         url: "https://ideogram.ai/assets/image/lossless/response/lfj2Y_WbTsW6jrne4-NBWg",
         "name": "Diwali",
         liked: true,
