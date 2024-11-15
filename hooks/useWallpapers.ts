@@ -36,7 +36,7 @@ export function useWallpapers(): FullWallpaper[] {
         url: "https://ideogram.ai/assets/progressive-image/balanced/response/0reS7n7eRfClLKHIEiWJUw",
         "name": "Late night",
         liked: true,
-        suggested: false,
+        suggested: true,
         library: true
     },
     {
